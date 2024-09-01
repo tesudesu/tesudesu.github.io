@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: -moz-linear-gradient(180deg, #a9cdbd, #f2f2f2);
+    background-image: -webkit-linear-gradient(180deg, #a9cdbd, #f2f2f2);
+    background-image: -o-linear-gradient(180deg, #a9cdbd, #f2f2f2);
+    background-image: -ms-linear-gradient(180deg, #a9cdbd, #f2f2f2);
+    background-image: linear-gradient(180deg, #a9cdbd, #f2f2f2);
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+    text-align: center;
+    font-size: 20px;
+    color: #738b80;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-image: -moz-linear-gradient(90deg, #a9cdbd, #c4d2cc, #a9cdbd);
+    background-image: -webkit-linear-gradient(90deg, #a9cdbd, #c4d2cc, #a9cdbd);
+    background-image: -o-linear-gradient(90deg, #a9cdbd, #c4d2cc, #a9cdbd);
+    background-image: -ms-linear-gradient(90deg, #a9cdbd, #c4d2cc, #a9cdbd);
+    background-image: linear-gradient(90deg, #a9cdbd, #c4d2cc, #a9cdbd);
+    padding: 0.7em;
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    color: #738b80;
+}
+
+main {
+    flex: 1;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.section {
+    text-align: center;
+    font-size: 17px;
+    margin: 1em;
+    color: #738b80;
+}
+
+.proj-container {
+    margin: auto;
+    width: fit-content;
+    margin-top: 1em;
+}
+
+.api-item {
+    padding: 3px;
+}
+
+.api-links {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+.api-links:hover {
+    text-decoration: underline;
+}
+
+.proj-name {
+    font-size: 15px;
+    color: #a3b4ac;
+    margin-bottom: 1em;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.links-container a {
+    border: 2px solid #a3b4ac;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #a3b4ac;
+}
+
+.proj-img {
+    box-shadow: 0px 1px 12px 0px #B5B4AE;
+    max-width: 100%;
+    height: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #738b80;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
